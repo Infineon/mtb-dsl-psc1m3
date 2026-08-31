@@ -1,0 +1,105 @@
+var group__I2C =
+[
+    [ "Cy_I2C_CH_CONFIG_t", "group__I2C.html#structCy__I2C__CH__CONFIG__t", [
+      [ "baudrate", "group__I2C.html#a275a0d759bdff892c270b7cfb1c8de0d", null ],
+      [ "normal_divider_mode", "group__I2C.html#afcfb874a1dc62f2a429a1dd11cb56405", null ],
+      [ "address", "group__I2C.html#a7f174bc0941bc4569d88e2e962d3a5a2", null ]
+    ] ],
+    [ "CY_I2C_10BIT_ADDR_GROUP", "group__I2C.html#ga289524fc1549056348d9f97c27a868a6", null ],
+    [ "Cy_I2C_CH_STATUS_t", "group__I2C.html#gaf00516a96b34f0d1e894653cc62f1a7c", [
+      [ "CY_I2C_CH_STATUS_OK", "group__I2C.html#ggaf00516a96b34f0d1e894653cc62f1a7ca64bec91d424848ab44a327c41cf20e89", null ],
+      [ "CY_I2C_CH_STATUS_ERROR", "group__I2C.html#ggaf00516a96b34f0d1e894653cc62f1a7cae5173b5580205843babca19ca039d50b", null ],
+      [ "CY_I2C_CH_STATUS_BUSY", "group__I2C.html#ggaf00516a96b34f0d1e894653cc62f1a7ca3beb1977e1211a7f475bee3a2e723d79", null ]
+    ] ],
+    [ "Cy_I2C_CH_STATUS_FLAG_t", "group__I2C.html#ga78e5ab3e12a57888112898fcae506534", [
+      [ "CY_I2C_CH_STATUS_FLAG_SLAVE_SELECT", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a42302d2031b34eb610835fa896bb478a", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_WRONG_TDF_CODE_FOUND", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a57109f4e8c0be848c9c32fcbcf111ea1", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_START_CONDITION_RECEIVED", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a0aa6f9a0238f1ec2b7628dc8def70c79", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_REPEATED_START_CONDITION_RECEIVED", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534ae4dc2ad031f443ad0459ae3411f1f309", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_STOP_CONDITION_RECEIVED", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a4d0feed9f1a9f2101ab651d530793380", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_NACK_RECEIVED", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534ab3280f758d49bae9c619947c594ca412", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_ARBITRATION_LOST", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534aafb63a32313cdedc2f41056d1c6a67f9", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_SLAVE_READ_REQUESTED", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a85968c8a07f3952f09b7700697eb8fd1", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_ERROR", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a9707ff4a14f5c6d0a6f4a8ef26b757e7", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_ACK_RECEIVED", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a36144b535c04a9a257ade42e8a24fbfb", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_RECEIVER_START_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a23e929eec9cefc261c4a997990b3d381", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_DATA_LOST_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534ab99739a2c7253a8a9d3d87eaa3b2ebea", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_TRANSMIT_SHIFT_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a50ce5fa03cc2f0dfe0b8a760f2068e1d", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_TRANSMIT_BUFFER_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534ad0bcf63fddc755e77bc9bdc805b6ca4b", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_RECEIVE_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534afccb481cf84d580400dc5133653d45d3", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_ALTERNATIVE_RECEIVE_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534ae6dfced29dcdc2bbefc33e5b6067135c", null ],
+      [ "CY_I2C_CH_STATUS_FLAG_BAUD_RATE_GENERATOR_INDICATION", "group__I2C.html#gga78e5ab3e12a57888112898fcae506534a0a61db5e748f4dd5b0ef9a56d0dbe403", null ]
+    ] ],
+    [ "Cy_I2C_CH_RECEIVER_STATUS_FLAG_t", "group__I2C.html#gaeca897089a0436fd08c357afa452d2bd", [
+      [ "CY_I2C_CH_RECEIVER_STATUS_FLAG_ACK", "group__I2C.html#ggaeca897089a0436fd08c357afa452d2bdaf798fba375960b6bcc16937f84d8fbec", null ],
+      [ "CY_I2C_CH_RECEIVER_STATUS_FLAG_FIN", "group__I2C.html#ggaeca897089a0436fd08c357afa452d2bdad6e5e0ae2049d4c24ca000bb1d8ce857", null ],
+      [ "CY_I2C_CH_RECEIVER_STATUS_FLAG_MODE", "group__I2C.html#ggaeca897089a0436fd08c357afa452d2bda1d8ff677354679275fdd752674902488", null ],
+      [ "CY_I2C_CH_RECEIVER_STATUS_FLAG_ERR", "group__I2C.html#ggaeca897089a0436fd08c357afa452d2bdae3817b63724bf2868bcb01f59f651b8e", null ],
+      [ "CY_I2C_CH_RECEIVER_STATUS_FLAG_ADR", "group__I2C.html#ggaeca897089a0436fd08c357afa452d2bda650220884b0c19f135b95d4ed5c6d2c8", null ]
+    ] ],
+    [ "Cy_I2C_CH_CMD_t", "group__I2C.html#gad956d49a98ed2ac78487b9b750f7e0f6", [
+      [ "CY_I2C_CH_CMD_WRITE", "group__I2C.html#ggad956d49a98ed2ac78487b9b750f7e0f6a6e73dfa037a5fe3a4c492300ceafd54f", null ],
+      [ "CY_I2C_CH_CMD_READ", "group__I2C.html#ggad956d49a98ed2ac78487b9b750f7e0f6aa8d5de9f0acd1a58b17a8627f1a81c4a", null ]
+    ] ],
+    [ "Cy_I2C_CH_EVENT_t", "group__I2C.html#gab92ef2368f9ad212604c5c1888ba1439", [
+      [ "CY_I2C_CH_EVENT_RECEIVE_START", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439ab5a3d04fe0f2c5918d6c869264704047", null ],
+      [ "CY_I2C_CH_EVENT_DATA_LOST", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a17fae2f5dacc008f4ed5ed992d07fb30", null ],
+      [ "CY_I2C_CH_EVENT_TRANSMIT_SHIFT", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a2046a57db82211b25985cca21cae9e7d", null ],
+      [ "CY_I2C_CH_EVENT_TRANSMIT_BUFFER", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a89fe8f65a9ca97f0f551229157f2eb21", null ],
+      [ "CY_I2C_CH_EVENT_STANDARD_RECEIVE", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a10052eafc995d2d55a2f341f56a42226", null ],
+      [ "CY_I2C_CH_EVENT_ALTERNATIVE_RECEIVE", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439ac7ffff617dd71a70f4480c6c9331e4d2", null ],
+      [ "CY_I2C_CH_EVENT_BAUD_RATE_GENERATOR", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439ac9f7a4ab6d1a8e97bcbafc6b515e6468", null ],
+      [ "CY_I2C_CH_EVENT_START_CONDITION_RECEIVED", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439abbd370e07035c72b307abdf91f13fae6", null ],
+      [ "CY_I2C_CH_EVENT_REPEATED_START_CONDITION_RECEIVED", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a8714d6c771f1911f4adeeb738c71f28e", null ],
+      [ "CY_I2C_CH_EVENT_STOP_CONDITION_RECEIVED", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a5382acd69305f53758bb14382c19dd45", null ],
+      [ "CY_I2C_CH_EVENT_NACK", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a955095847f821924fc374d71d7306dd8", null ],
+      [ "CY_I2C_CH_EVENT_ARBITRATION_LOST", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439ae72b39ff433d0b82acbfaf01f82bed34", null ],
+      [ "CY_I2C_CH_EVENT_SLAVE_READ_REQUEST", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439a29bd08f48f9002b14a541cb724694ba2", null ],
+      [ "CY_I2C_CH_EVENT_ERROR", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439aa30343ec25f910cd194d369a144f7dde", null ],
+      [ "CY_I2C_CH_EVENT_ACK", "group__I2C.html#ggab92ef2368f9ad212604c5c1888ba1439aa8d4ecd2021ef3e5658196f592b898a0", null ]
+    ] ],
+    [ "Cy_I2C_CH_INPUT_t", "group__I2C.html#gad2694a39c115fdcc1dc87b62d4ec03b8", [
+      [ "CY_I2C_CH_INPUT_SDA", "group__I2C.html#ggad2694a39c115fdcc1dc87b62d4ec03b8aa0fbb37963ba25f0dadabfc4cbccaf8c", null ],
+      [ "CY_I2C_CH_INPUT_SCL", "group__I2C.html#ggad2694a39c115fdcc1dc87b62d4ec03b8a173d60532bd7af2c720e2f0e66c0b02b", null ]
+    ] ],
+    [ "Cy_I2C_CH_INTERRUPT_NODE_POINTER_t", "group__I2C.html#gaa18fdabf8ef08b8e49342c0630e2a80c", [
+      [ "CY_I2C_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT", "group__I2C.html#ggaa18fdabf8ef08b8e49342c0630e2a80cad7bff7b9ba30b76cb0e83e3bd7ab7a2e", null ],
+      [ "CY_I2C_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER", "group__I2C.html#ggaa18fdabf8ef08b8e49342c0630e2a80cab71d4176475893e482c2cfb894c05b21", null ],
+      [ "CY_I2C_CH_INTERRUPT_NODE_POINTER_RECEIVE", "group__I2C.html#ggaa18fdabf8ef08b8e49342c0630e2a80cae6673e5fb390a08152901db20b1e2e1e", null ],
+      [ "CY_I2C_CH_INTERRUPT_NODE_POINTER_ALTERNATE_RECEIVE", "group__I2C.html#ggaa18fdabf8ef08b8e49342c0630e2a80ca97738ea6b04f27318ad21a8593662ba3", null ],
+      [ "CY_I2C_CH_INTERRUPT_NODE_POINTER_PROTOCOL", "group__I2C.html#ggaa18fdabf8ef08b8e49342c0630e2a80ca04c33080d992dae2379113a6af3dc366", null ]
+    ] ],
+    [ "Cy_I2C_CH_InitEx", "group__I2C.html#gab0bf49650ccffbbc10f957501d21e996", null ],
+    [ "Cy_I2C_CH_Init", "group__I2C.html#ga2bdde70d9f8657fa64de6be1996c73d2", null ],
+    [ "Cy_I2C_CH_SetBaudrate", "group__I2C.html#ga1c539b29d465084c7b00c880b7fb8cbe", null ],
+    [ "Cy_I2C_CH_SetBaudrateEx", "group__I2C.html#ga631566c62907177f6bbbcba23adf2fe0", null ],
+    [ "Cy_I2C_CH_Start", "group__I2C.html#ga4092128b78e30c20fc11f5ed3af654d4", null ],
+    [ "Cy_I2C_CH_Stop", "group__I2C.html#ga8ecb75f2168184a93658bcd6146ef082", null ],
+    [ "Cy_I2C_CH_SetInterruptNodePointer", "group__I2C.html#ga66d77894454e32300b1e622363eb13e9", null ],
+    [ "Cy_I2C_CH_SelectInterruptNodePointer", "group__I2C.html#gae05b4f4389a3f16fa1117048d42e8d09", null ],
+    [ "Cy_I2C_CH_TriggerServiceRequest", "group__I2C.html#gadcd8cfff3acfd2f8594a458a170c5792", null ],
+    [ "Cy_I2C_CH_SetInputSource", "group__I2C.html#gad82cfb3b1b05d113d8aeb249e8d62042", null ],
+    [ "Cy_I2C_CH_SetSlaveAddress", "group__I2C.html#gad98f3ff046fee2b25dc118164128e4d4", null ],
+    [ "Cy_I2C_CH_GetSlaveAddress", "group__I2C.html#ga7a0bf8b00ec6aaaf718948173ee0c6b8", null ],
+    [ "Cy_I2C_CH_MasterStart", "group__I2C.html#ga5cd5bca2e20e17702a9453f1345f64c2", null ],
+    [ "Cy_I2C_CH_MasterRepeatedStart", "group__I2C.html#ga115cadd005c524927b44082f22245487", null ],
+    [ "Cy_I2C_CH_MasterStop", "group__I2C.html#gacae6968464c20139f8d2b2636aa20b7c", null ],
+    [ "Cy_I2C_CH_MasterTransmit", "group__I2C.html#ga05983fa5f1b4ccb2bce73b26db348a78", null ],
+    [ "Cy_I2C_CH_SlaveTransmit", "group__I2C.html#ga17a09dc941fdc5c9ae24eb5e68a35175", null ],
+    [ "Cy_I2C_CH_MasterReceiveAck", "group__I2C.html#ga2a7c3f56884f7c720e92d4322b8d8f9f", null ],
+    [ "Cy_I2C_CH_MasterReceiveNack", "group__I2C.html#ga289176e3cb585974dd97b0cfbc0bdba3", null ],
+    [ "Cy_I2C_CH_GetReceivedData", "group__I2C.html#ga7761b8bd8c90f7c88796e79939a7220f", null ],
+    [ "Cy_I2C_CH_GetReceiverStatusFlag", "group__I2C.html#gad35bbd66d73aeb02f181eae967ef943f", null ],
+    [ "Cy_I2C_CH_EnableEvent", "group__I2C.html#gac1520fd4a0c19dff6c0766ae295059ec", null ],
+    [ "Cy_I2C_CH_DisableEvent", "group__I2C.html#gac228a29a1ca549ec97238abda9a9c111", null ],
+    [ "Cy_I2C_CH_GetStatusFlag", "group__I2C.html#gaa9e351d0c484a54da4199ddaa907717e", null ],
+    [ "Cy_I2C_CH_ClearStatusFlag", "group__I2C.html#ga388cbe6fbc77b85996e9a54275ca7c7d", null ],
+    [ "Cy_I2C_CH_ConfigExternalInputSignalToBRG", "group__I2C.html#ga73173ff5671390c7f0c88eb8be13138a", null ],
+    [ "Cy_I2C_CH_EnableAcknowledgeAddress0", "group__I2C.html#gac9f1cf730789284ecddbedc2dfbae2b6", null ],
+    [ "Cy_I2C_CH_DisableAcknowledgeAddress0", "group__I2C.html#gada8f461b14f4a7f20f3003d287ba80f4", null ],
+    [ "Cy_I2C_CH_EnableDataTransmission", "group__I2C.html#ga89ae736c9d5ca66ef6f23abef06e4516", null ],
+    [ "Cy_I2C_CH_DisableDataTransmission", "group__I2C.html#gacd21fc37097ee42c1b3f88e62459abe1", null ],
+    [ "Cy_I2C_CH_EnableMasterClock", "group__I2C.html#gaca1d9772e9a7e522b50a69ada7b44902", null ],
+    [ "Cy_I2C_CH_DisableMasterClock", "group__I2C.html#gae834179f185f7de7456d093b9b88829d", null ],
+    [ "Cy_I2C_CH_SetHoldDelay", "group__I2C.html#ga87a2d2b7be4049f1aa17e341cc3b1cd8", null ]
+];

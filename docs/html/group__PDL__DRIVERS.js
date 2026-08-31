@@ -1,0 +1,25 @@
+var group__PDL__DRIVERS =
+[
+    [ "Analog Comparator (ACMP)", "group__ACMP.html", "group__ACMP" ],
+    [ "Brightness and Color Control Unit (BCCU)", "group__BCCU.html", "group__BCCU" ],
+    [ "Capture Compare Unit 4 (CCU4)", "group__CCU4.html", "group__CCU4" ],
+    [ "Capture Compare Unit 8 (CCU8)", "group__CCU8.html", "group__CCU8" ],
+    [ "Common APIs to all Peripherals (COMMON)", "group__COMMON.html", "group__COMMON" ],
+    [ "Controller Area Network Controller (CAN)", "group__CAN.html", "group__CAN" ],
+    [ "Event Request Unit (ERU)", "group__ERU.html", "group__ERU" ],
+    [ "Flash Driver (FLASH)", "group__FLASH.html", "group__FLASH" ],
+    [ "General Purpose Input Output (GPIO)", "group__GPIO.html", "group__GPIO" ],
+    [ "Inter IC Sound (I2S)", "group__I2S.html", "group__I2S" ],
+    [ "Inter Integrated Circuit (I2C)", "group__I2C.html", "group__I2C" ],
+    [ "MATH Coprocessor (MATH)", "group__MATH.html", "group__MATH" ],
+    [ "Peripheral Access Unit (PAU)", "group__PAU.html", "group__PAU" ],
+    [ "Position Interface Unit (POSIF)", "group__POSIF.html", "group__POSIF" ],
+    [ "Pseudo Random Number Generator (PRNG)", "group__PRNG.html", "group__PRNG" ],
+    [ "Real-time Clock (RTC)", "group__RTC.html", "group__RTC" ],
+    [ "Synchronous Serial Channel for SPI (SPI)", "group__SPI.html", "group__SPI" ],
+    [ "System Control Unit (SCU)", "group__SCU.html", "group__SCU" ],
+    [ "Universal Asynchronous Receiver/Transmitter (UART)", "group__UART.html", "group__UART" ],
+    [ "Universal Serial Interface Channel (USIC)", "group__USIC.html", "group__USIC" ],
+    [ "Versatile Analog to Digital Converter (VADC)", "group__VADC.html", "group__VADC" ],
+    [ "Watchdog Driver (WDT)", "group__WDT.html", "group__WDT" ]
+];

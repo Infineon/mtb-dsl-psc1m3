@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file prng-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Pseudo Random Number Generator (PRNG) personality description file for PSC1 family.
+*
+********************************************************************************
+* \copyright
+* (c) 2016-2026, Infineon Technologies AG or an affiliate of
+* Infineon Technologies AG.
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="psc1_prng" name="PRNG" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="psc1_prng" />
+    <Resource name="prng" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/psc1_api_reference_manual/html/group___p_r_n_g.html" linkText="Open PRNG Driver Documentation" visible="true" desc="Opens the PSC1 Peripheral Library Documentation." />
+
+    <!-- PRNG Key (Seed) -->
+    <Repeat count="5">
+      <ParamRange id="partial_key_word_p$idx" name="Partial Key Word p`${$idx+1}`" group="PRNG Key (Seed)" default="42405" min="0" max="65535" resolution="1" visible="true" editable="true" desc="Defines the partial key word`${$idx+1}`" />
+    </Repeat>
+
+    <!-- PRNG Output Configuration -->
+    <ParamChoice id="random_data_block_size" name="Random Data Block Size" group="PRNG Output Configuration" default="CY_PRNG_RDBS_BYTE" visible="true" editable="true" desc="Defines the width of the generated random data – an 8-bit byte or 16-bit word.">
+      <Entry name="Byte" value="CY_PRNG_RDBS_BYTE" visible="true" />
+      <Entry name="Word" value="CY_PRNG_RDBS_WORD" visible="true" />
+    </ParamChoice>
+
+    <!-- Advanced Settings -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+
+  <DRCs />
+
+  <ConfigFirmware>
+    <ConfigInclude value="cy_prng.h" include="true" />
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="Cy_PRNG_INIT_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="`${&quot;key_words[##]&quot;}`" value="`${partial_key_word_p##}`U" count="5" />
+      <Member name="block_size" value="`${random_data_block_size}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="Cy_PRNG_Init(&amp;`${INST_NAME}`_config);" include="true" />
+  </ConfigFirmware>
+</Personality>

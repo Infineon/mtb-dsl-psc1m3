@@ -1,0 +1,97 @@
+var group__UART =
+[
+    [ "Cy_UART_CH_CONFIG_t", "group__UART.html#structCy__UART__CH__CONFIG__t", [
+      [ "baudrate", "group__UART.html#ab8bd7a85a05a54c8545935a3e0e3ae14", null ],
+      [ "normal_divider_mode", "group__UART.html#aaa4762063225ed0c0da24f5116e756d9", null ],
+      [ "data_bits", "group__UART.html#a7cbb0bd14a5b843876e72ef7225bc3bf", null ],
+      [ "frame_length", "group__UART.html#a57c029054b3109569d46da99b4e08bec", null ],
+      [ "stop_bits", "group__UART.html#aa8a035e133eb45ada56d4cc295c6547c", null ],
+      [ "oversampling", "group__UART.html#aa65f7d1b4f82b43254f64f5ab3b435b3", null ],
+      [ "parity_mode", "group__UART.html#a7f156b67af178e019a62a739b19f2aba", null ]
+    ] ],
+    [ "Cy_UART_CH_STATUS_t", "group__UART.html#gaee8870cee1bbd03bdc3f70474ea9d725", [
+      [ "CY_UART_CH_STATUS_OK", "group__UART.html#ggaee8870cee1bbd03bdc3f70474ea9d725a75652ecbe9b6ca91589aeb6ca6fd3362", null ],
+      [ "CY_UART_CH_STATUS_ERROR", "group__UART.html#ggaee8870cee1bbd03bdc3f70474ea9d725a5951a70f1ecb3bf4a084df748f2f84c1", null ],
+      [ "CY_UART_CH_STATUS_BUSY", "group__UART.html#ggaee8870cee1bbd03bdc3f70474ea9d725a6536527cc0eb1ec01f1db3e89d7fd584", null ]
+    ] ],
+    [ "Cy_UART_CH_STATUS_FLAG_t", "group__UART.html#ga5198949da546a91aab1fa3e2fe1def8b", [
+      [ "CY_UART_CH_STATUS_FLAG_TRANSMISSION_IDLE", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba188e5665fef52820a4f8e43a5b2e54f8", null ],
+      [ "CY_UART_CH_STATUS_FLAG_RECEPTION_IDLE", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba6717c89186669115f4f52d123e079c38", null ],
+      [ "CY_UART_CH_STATUS_FLAG_SYNCHRONIZATION_BREAK_DETECTED", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba4876bc4cae191538997976fefd316e8a", null ],
+      [ "CY_UART_CH_STATUS_FLAG_COLLISION_DETECTED", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8bad03728dd396d6de97b8a8e10385e9085", null ],
+      [ "CY_UART_CH_STATUS_FLAG_RECEIVER_NOISE_DETECTED", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba8fbdf7e88912698b9fe700f80783af01", null ],
+      [ "CY_UART_CH_STATUS_FLAG_FORMAT_ERROR_IN_STOP_BIT_0", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba65434a058ba49ae9882b24e8734ab209", null ],
+      [ "CY_UART_CH_STATUS_FLAG_FORMAT_ERROR_IN_STOP_BIT_1", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8baed65cf8fe0c04946fa7f12ec250abf8e", null ],
+      [ "CY_UART_CH_STATUS_FLAG_RECEIVE_FRAME_FINISHED", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba6660b35727348509af259fb5fe77620b", null ],
+      [ "CY_UART_CH_STATUS_FLAG_TRANSMITTER_FRAME_FINISHED", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba132ef6142b2ae30dadd2574653debfcf", null ],
+      [ "CY_UART_CH_STATUS_FLAG_TRANSFER_STATUS_BUSY", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba77070bfd9a563138d3d0a01b656b04f2", null ],
+      [ "CY_UART_CH_STATUS_FLAG_RECEIVER_START_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba85a800dd07c7e0cb1fd8945e71be723a", null ],
+      [ "CY_UART_CH_STATUS_FLAG_DATA_LOST_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8baf6e14b1629f393f374c325f29298fe6b", null ],
+      [ "CY_UART_CH_STATUS_FLAG_TRANSMIT_SHIFT_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba2ce21b98a4bcd12d44a21164fe231eb4", null ],
+      [ "CY_UART_CH_STATUS_FLAG_TRANSMIT_BUFFER_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8bafc09a849fb08a080ec554a17e2818564", null ],
+      [ "CY_UART_CH_STATUS_FLAG_RECEIVE_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba8912b51c3eae36426a8bac31ea4b5962", null ],
+      [ "CY_UART_CH_STATUS_FLAG_ALTERNATIVE_RECEIVE_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba7ed0b9a654924022394587bc0d4e8668", null ],
+      [ "CY_UART_CH_STATUS_FLAG_BAUD_RATE_GENERATOR_INDICATION", "group__UART.html#gga5198949da546a91aab1fa3e2fe1def8ba93e9368ff83c1631805950c0c9c3046a", null ]
+    ] ],
+    [ "Cy_UART_CH_EVENT_t", "group__UART.html#gafcc555872df1e020f5550b219f55394f", [
+      [ "CY_UART_CH_EVENT_RECEIVE_START", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa2c836c5e0a6a7554da381a64af84ef3d", null ],
+      [ "CY_UART_CH_EVENT_DATA_LOST", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa2aafbb5147fc0d2e69d57b93c768cae9", null ],
+      [ "CY_UART_CH_EVENT_TRANSMIT_SHIFT", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa4aed94dda9eda65a9a104b26541050ae", null ],
+      [ "CY_UART_CH_EVENT_TRANSMIT_BUFFER", "group__UART.html#ggafcc555872df1e020f5550b219f55394faa4c8db96b076964d676c3be2aaeb1b70", null ],
+      [ "CY_UART_CH_EVENT_STANDARD_RECEIVE", "group__UART.html#ggafcc555872df1e020f5550b219f55394fabfb33375a8067e085e24a838b955079d", null ],
+      [ "CY_UART_CH_EVENT_ALTERNATIVE_RECEIVE", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa20149be87aa4371fa5942601b5bf70e7", null ],
+      [ "CY_UART_CH_EVENT_BAUD_RATE_GENERATOR", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa3b28c235758e4b2b76ed9140a3fa4d56", null ],
+      [ "CY_UART_CH_EVENT_SYNCHRONIZATION_BREAK", "group__UART.html#ggafcc555872df1e020f5550b219f55394fab626a70621aa8d3e66afe00499c8a024", null ],
+      [ "CY_UART_CH_EVENT_COLLISION", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa779aa6aef77fda08158fcbc0768a5972", null ],
+      [ "CY_UART_CH_EVENT_RECEIVER_NOISE", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa609aff290ccde2752e1fd32e06b8b11d", null ],
+      [ "CY_UART_CH_EVENT_FORMAT_ERROR", "group__UART.html#ggafcc555872df1e020f5550b219f55394fa75bffdc741405284910a9126d45e485c", null ],
+      [ "CY_UART_CH_EVENT_FRAME_FINISHED", "group__UART.html#ggafcc555872df1e020f5550b219f55394fac05affc1e618721627aa63d7e69f6bf8", null ]
+    ] ],
+    [ "Cy_UART_CH_INPUT_SAMPLING_FREQ_t", "group__UART.html#ga919314e0ba7cf64109feb14484503b9f", [
+      [ "CY_UART_CH_INPUT_SAMPLING_FREQ_FPERIPH", "group__UART.html#gga919314e0ba7cf64109feb14484503b9fa831e82c58c7b86131d065c2e33ff8b13", null ],
+      [ "CY_UART_CH_INPUT_SAMPLING_FREQ_FRACTIONAL_DIVIDER", "group__UART.html#gga919314e0ba7cf64109feb14484503b9fac14ff5b547815d58ffcc6743db03f838", null ]
+    ] ],
+    [ "Cy_UART_CH_INPUT_t", "group__UART.html#ga7d5b394975661d3ce04c9627cdfcdb5b", [
+      [ "CY_UART_CH_INPUT_RXD", "group__UART.html#gga7d5b394975661d3ce04c9627cdfcdb5ba79e8807f8a419770e9c8533f822f99ee", null ],
+      [ "CY_UART_CH_INPUT_RXD1", "group__UART.html#gga7d5b394975661d3ce04c9627cdfcdb5ba17ce1799458031d31598c3f87dfe6c14", null ],
+      [ "CY_UART_CH_INPUT_RXD2", "group__UART.html#gga7d5b394975661d3ce04c9627cdfcdb5babce4d1fc327864610c84f2bb74a4fdee", null ]
+    ] ],
+    [ "Cy_UART_CH_INTERRUPT_NODE_POINTER_t", "group__UART.html#ga582f17badcf596d3f8f2e78206a879ba", [
+      [ "CY_UART_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT", "group__UART.html#gga582f17badcf596d3f8f2e78206a879baaa1ecb788ff13195f672bba228ff73371", null ],
+      [ "CY_UART_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER", "group__UART.html#gga582f17badcf596d3f8f2e78206a879baa75a7cc0f83b266a0a360fa56f11e6b13", null ],
+      [ "CY_UART_CH_INTERRUPT_NODE_POINTER_RECEIVE", "group__UART.html#gga582f17badcf596d3f8f2e78206a879baae1f7b0b2d84a2a7572a0cb7eb291def4", null ],
+      [ "CY_UART_CH_INTERRUPT_NODE_POINTER_ALTERNATE_RECEIVE", "group__UART.html#gga582f17badcf596d3f8f2e78206a879baa491c9126d47e50402a55d0b40659137c", null ],
+      [ "CY_UART_CH_INTERRUPT_NODE_POINTER_PROTOCOL", "group__UART.html#gga582f17badcf596d3f8f2e78206a879baa69797afc0bb7e7b042f0fe83ad012aff", null ]
+    ] ],
+    [ "Cy_UART_CH_InitEx", "group__UART.html#ga52f3dda0e35854344ad1668446bbef72", null ],
+    [ "Cy_UART_CH_Init", "group__UART.html#ga04390222c0f3d266ac36f58390b0601f", null ],
+    [ "Cy_UART_CH_Start", "group__UART.html#ga5169e0ab9b3294c8948a852a6e3435b3", null ],
+    [ "Cy_UART_CH_Stop", "group__UART.html#ga354c4c87da13950efb88dd8f87633133", null ],
+    [ "Cy_UART_CH_SetBaudrate", "group__UART.html#gaef8835de05cc2dc4a0405e0a2e8cf172", null ],
+    [ "Cy_UART_CH_SetBaudrateEx", "group__UART.html#gaa872efe7e7f0bbedb74565a19dc8a88f", null ],
+    [ "Cy_UART_CH_Transmit", "group__UART.html#gadf21206e728839958b76076722e395bd", null ],
+    [ "Cy_UART_CH_GetReceivedData", "group__UART.html#ga52b86b51305cced89065d4f59127c176", null ],
+    [ "Cy_UART_CH_SetWordLength", "group__UART.html#gae5c03bf40e782287c9fce1e5f514df87", null ],
+    [ "Cy_UART_CH_SetFrameLength", "group__UART.html#ga7daa9d658f1768b41c097a015976be1e", null ],
+    [ "Cy_UART_CH_EnableEvent", "group__UART.html#ga21c83b37460a3e645b645095e72a20b7", null ],
+    [ "Cy_UART_CH_DisableEvent", "group__UART.html#ga78e709411f82903cc0bad7bd47796faf", null ],
+    [ "Cy_UART_CH_SetInterruptNodePointer", "group__UART.html#ga64e0c6e1069e268e4be16f0e8331b05f", null ],
+    [ "Cy_UART_CH_SelectInterruptNodePointer", "group__UART.html#gaa189c0dcfc9bcff5a477272f35d2559a", null ],
+    [ "Cy_UART_CH_TriggerServiceRequest", "group__UART.html#ga0f9111561b8513d63c0d75e516deb002", null ],
+    [ "Cy_UART_CH_GetStatusFlag", "group__UART.html#ga83fb53325601a733dc5b7647d5edd28c", null ],
+    [ "Cy_UART_CH_ClearStatusFlag", "group__UART.html#gaccfa69b14854e1c6b5e812c5112a82b8", null ],
+    [ "Cy_UART_CH_SetInputSource", "group__UART.html#ga392569f92abcb23a1742c2f7b8bbdec7", null ],
+    [ "Cy_UART_CH_SetPulseLength", "group__UART.html#ga310b6f3aafa671ec4e65f38224c3c0cc", null ],
+    [ "Cy_UART_CH_EnableMasterClock", "group__UART.html#gaab91f9c3bed4ee2315f0cc39ebc2113e", null ],
+    [ "Cy_UART_CH_DisableMasterClock", "group__UART.html#gab9b2aa06341347860fc42998fec0ca76", null ],
+    [ "Cy_UART_CH_SetSamplePoint", "group__UART.html#gaf8f9bae10b33f373c332c8f790d0e265", null ],
+    [ "Cy_UART_CH_EnableInputInversion", "group__UART.html#ga100cd028ebb69da8bb1bf29b32813857", null ],
+    [ "Cy_UART_CH_DisableInputInversion", "group__UART.html#gad1c4b13eb3b774d97ce7e384c19f841f", null ],
+    [ "Cy_UART_CH_EnableInputDigitalFilter", "group__UART.html#ga02e7790a7b457f514a3cc6c649e074d4", null ],
+    [ "Cy_UART_CH_DisableInputDigitalFilter", "group__UART.html#ga5d2aedda21d6b189fbbab9433e158d50", null ],
+    [ "Cy_UART_CH_EnableInputSync", "group__UART.html#gafebcfd35af44d5f86e30de5c0fe8dfd1", null ],
+    [ "Cy_UART_CH_DisableInputSync", "group__UART.html#ga8675c53dcba131982b06ce6a21e53e95", null ],
+    [ "Cy_UART_CH_SetInputSamplingFreq", "group__UART.html#gad941c00cecf22fd2b3dbf29f453c7548", null ],
+    [ "Cy_UART_CH_EnableDataTransmission", "group__UART.html#gadad04c97122266f3053fe60b943ec8b7", null ],
+    [ "Cy_UART_CH_DisableDataTransmission", "group__UART.html#ga038a704f9d60b1da740b0fd5da539fae", null ]
+];

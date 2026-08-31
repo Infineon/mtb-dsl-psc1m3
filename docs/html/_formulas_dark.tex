@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\color{white}
+\pagecolor{black}
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$\frac{syn_preload \times f_{OSC}[MHz]}{48}$
+\pagebreak
+
+$\frac{48 \times prescaler}{f_{OSC}[MHz]}$
+\pagebreak
+
+\end{document}

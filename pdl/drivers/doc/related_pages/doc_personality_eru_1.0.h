@@ -1,0 +1,41 @@
+/**
+ *
+ * @defgroup PERSONALITY_ERU ERU Personality
+ * @ingroup PERSONALITIES
+ * @{
+ * The Event Request Unit (ERU) architecture includes three subunits: Event Request Select (ERS), Event Trigger Logic (ETL), and Output Gating Unit (OGU).<br>
+ * Thus, the ERU personality is represented as the three personalities of the ERU subunits. <br>
+ *
+ * For more details, refer to:<br>
+ * - \ref brief_pdlapi_eru "ERU Detailed Description" from the API reference.<br>
+ *
+ * \subsection subsection_personality_ers ERS Personality
+ * The ERS personality provides a graphical interface to connect a corresponding ERS input channel to a specific event source, to determine the ERS output
+ * signal Combination Logic, and to connect an ERS unit with a corresponding ETL unit.
+ *
+ * \image html ers_personality_connections.png width=55%
+ * After ERS is set, the next step of the ERU adjustment by the configuration chain is configuration of the \ref subsection_personality_etl "ETL".
+ *
+ * \subsection subsection_personality_etl ETL Personality
+ * The ETL personality provides a graphical interface to determine the conditions of incoming signal processing. If the incoming signal
+ * satisfies the conditions defined by the "Edge Detection" parameter, the signal is regarded as a true event.<br>
+ * The event generates a trigger, whose distribution path to OGU is also controlled by the parameters of the ETL personality GUI. <br>
+ *
+ * \image html etl_personality_connections.png width=53%
+ * To continue ERU adjustments, go to the \ref subsection_personality_ogu "OGU" personality configuration by the configuration chain.
+ *
+ * \subsection subsection_personality_ogu OGU Personality.
+ * An OGU unit combines trigger events and status information and gates the Output. The OGU personality provides a graphical interface to determine in which
+ * way that will occurs.
+ * \note
+ * The OGU settings may be set so that an event of one Input will lead to reactions on several Outputs.
+ *
+ * OGU Outputs may be used as triggers for the other units, for example, to DMA.<br>
+ * An OGU reaction may be setting the service request generation. To enable the service request generation, check the "Pattern Detection" parameter. <br>
+ *
+ * \image html ogu_personality_connections.png width=70%
+ *
+ *
+ * Refer to the API reference \ref ERU for the API details.<br>
+ * Refer to the device Datasheet and Reference Manual for HW details.
+ */

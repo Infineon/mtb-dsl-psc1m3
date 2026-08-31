@@ -1,0 +1,24 @@
+{
+    "core": {
+        "name": "mtb-dsl-psc1m3",
+        "id": "a61703cb-9aa8-5967-87dc-61a957354ee9",
+        "version": "1.0.0.70"
+    },
+    "configurator_support": true,
+    "opt": {
+        "svd": {
+            "COMPONENT_PSC1M3": "pdl/svd/psc1m.svd"
+        },
+        "documentation": [
+            {
+                "location": "docs/api_reference_manual.html",
+                "path": [
+                    "Reference Guides",
+                    "PSOC Control C1-M3"
+                ],
+                "title": "Device Support Library API reference manual",
+                "type": "api-guide"
+            }
+        ]
+    }
+}
